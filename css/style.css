@@ -38,7 +38,10 @@ canvas{
   display:block;
   vertical-align:top;
 }
-
+.sw{
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
 
 /* ---- stats.js ---- */
 
