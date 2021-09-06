@@ -71,13 +71,13 @@
       </label>  
     </div>
     <h3
-      onclick="document.getElementsByTagName('nav')[0].className = 'menu menu_active'"
+      onclick="play1()"
     >
       &lt;menu/&gt;
     </h3>
     
     <nav class="menu">
-      <p onclick="document.getElementsByTagName('nav')[0].className = 'menu'">
+      <p onclick="play2()">
         &lt;close/&gt;
       </p>
       <ol>
@@ -140,6 +140,21 @@ VANTA.DOTS({
   spacing: 50.00
 })
 </script>
-
+<script>
+  function play2() {
+  var audio = new Audio("images/pew.mp3");
+  audio.volume = 0.2;
+  audio.play();
+  document.getElementsByTagName('nav')[0].className = 'menu';
+  }
+</script>
+<script>
+  function play1(){
+    var audio = new Audio("images/pew.mp3");
+    audio.volume = 0.2;
+    audio.play();
+    document.getElementsByTagName('nav')[0].className = 'menu menu_active';
+  }
+</script>
   </body>
 </html>
