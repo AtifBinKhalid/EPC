@@ -42,7 +42,7 @@
  * Dark mode
  */
  html.dark-mode {
-  filter: invert(80%);
+  filter: invert(100%);
   
 }
 html.dark-mode img {
