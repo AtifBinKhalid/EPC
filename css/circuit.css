@@ -1,0 +1,21 @@
+body { background-color:  black; }
+			#circles { opacity: 0;
+				-webkit-animation: circleFade .5s 2s forwards 1;
+				animation: circleFade .5s 2s forwards 1;
+			}
+			@-webkit-keyframes circleFade {
+				0%   { opacity: 0; }
+				100% { opacity: 1; }
+			}
+			@-moz-keyframes circleFade {
+				0%   { opacity: 0; }
+				100% { opacity: 1; }
+			}
+			@-o-keyframes circleFade {
+				0%   { opacity: 0; }
+				100% { opacity: 1; }
+			}
+			@keyframes circleFade {
+				0%   { opacity: 0; }
+				100% { opacity: 1; }
+			}
