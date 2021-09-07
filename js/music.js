@@ -30,3 +30,8 @@ function about() {
 window.onload = function() {
     document.getElementById("Audio").play();
 }
+function click() {
+  var audio = new Audio("images/click.mp3");
+  audio.volume = 0.5;
+  audio.play();
+}
