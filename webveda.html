@@ -1,0 +1,421 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>FrontEnd webVeda Hackathon</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+
+    <link rel="icon" href="images\cover-b.png">
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/webVeda.css">
+
+
+
+</head>
+
+<body class="dark-mode">
+
+
+    <div id="preloader">
+        <div class="clock"></div>
+    </div>
+
+    <section class="wrapper" id="container">
+
+        <header class="header-section">
+            <nav class="navbar navbar-default">
+                <div class="container">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="#">
+                            <img class="img-responsive" src="images\cover-b.png" width="65" height="15" alt="">
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right" id="top-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </nav>
+        </header>
+
+        <header class="cover-section" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="counter-box wow fadeInDown">
+                        <div class="col-md-offset-3 col-md-6 animated">
+
+                            <h2> FrontEnd webVeda Hackathon
+                                <SPAN>2021</SPAN>
+                            </h2>
+                            <form class="form-horizontal">
+
+                                <button type="submit" class="button-hover animated-transparent"><a href="">REGISTER</a></button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="section-title">
+                            <h2>About Event</h2>
+                        </div>
+                        <div class="row about-item">
+                            <div class="col-md-12">
+                                <div class="about-caption">
+                                    <p>
+
+                                    </p>
+                                    <p>
+                                        <b>There will be two rounds in this event.</b>
+                                        <br><b>1st Round will</b> be Quiz Round, which is based on fundamentals of HTML, CSS, & JavaScript. Students can participate either individually or in group (not more than 3 members). Quiz will take place on D2C
+                                        platform in which 30 MCQ’s will be given and each question will be of 5 marks and this round will be of 20 minutes.
+                                        <br><br> Top performers will be selected for final round i.e. frontEnd webVeda Hackathon. Final Round: Selected students/teams can participate in final round.
+                                        <br><br><b>In final round</b>, we will provide general web design and participants have to develop that design using HTML, CSS and JavaScript. Along with HTML, CSS, JS file, participants also have to create a Readme.txt
+                                        file which includes their details (name, registered email Id, branch, course, year) and Team name. And then convert it into zip file (zip name: Team name).<br> <br><em> <b>Note: Use of Bootstrap or any other framework/library are strictly prohibited and lead to disqualification.</b></em>
+                                        <br><br> <b>Judgement will be on the basis of:</b>
+                                        <br>- Responsiveness of web page
+                                        <br>- Creativity
+                                        <br>- Loading time
+                                        <br>- Clean Code
+                                        <br><br>Total Time: 1st round: 30 minutes
+                                        <br>Final round: 5 hours + 30 minutes for submission.
+                                        <br><br><b>Cash Prizes:</b>
+                                        <br>1st Prize: 1000 Rupees
+                                        <br>2nd Prize: 700 Rupees
+                                        <br>3rd Prize: 500 Rupees
+
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="video-box">
+
+
+                            <img class="img-responsive" src="images\cover-b.png" width="2500" height="2500" alt="">
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+
+        </section>
+      
+
+        <div class="box">
+    <ul id="first-list">
+        <li>
+            <span></span>
+            <img
+              src="images/quiz.jpg"
+              class="imgX"
+              width="500px"
+            />
+            <div class="title"><br>Quiz</div>
+            <div class="info">
+            <br>&lt;Based on fundamentals of HTML, CSS, & JavaScript/&gt<br>
+            <br>&lt;30 MCQ - 20 Minutes, D2C/&gt<br></div>
+
+            <div class="time">
+                <span><b><h4 style="color: black;">1<sup>st</sup>Round: Quiz </h4><b></span>
+                <span>30 minutes</span>
+            </div>
+        </li>
+        <li>
+            <span></span>
+            <img
+              src="images/final.jpg"
+              class="imgX"
+              width="500px"
+            />
+            <div class="title"><br>frontend webVeda Hackathon </div>
+            <div class="info"><br>We will provide general web design and participants have to develop that design using HTML, CSS and JavaScript.<br> Note: Use of Bootstrap or any other framework/library are strictly prohibited and lead to disqualification.
+<br></div>
+            <div class="time">
+                <span><b><h4 style="color: black;">Final Round </h4><b></span>
+                <span>6 hours</span>
+            </div>
+        </li>
+        <!-- <li>
+            <span></span>
+            <div class="title">Final Round: </div>
+            <div class="info"><br>In final round, we will provide general web design and participants have to develop that design using HTML, CSS and JavaScript.
+Along with HTML, CSS, JS file, participants also have to create a Readme.txt file which includes their details (name, registered email Id, branch, course, year) and Team name. And then convert it into zip file (zip name: Team name).
+<br></div>
+            <div class="name">- frontEnd Hackathon -</div>
+            <div class="time">
+                <span>Sep, 18<sup>nd</sup></span>
+                <span>02:00 PM</span>
+            </div>
+        </li> -->
+    </ul>
+</div>
+
+
+
+        <section class="counter-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <!-- <i class="fa fa-arrows-h"></i> -->
+                            <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-award-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
+                            <div class="counter-caption">
+                                <span>1st Prize:</span>
+                                <p>1000 Rupees</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <img src="https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/60/000000/external-award-online-learning-vitaliy-gorbachev-blue-vitaly-gorbachev.png"/>
+                            <div class="counter-caption">
+                                <span> 2nd Prize:</span>
+                                <p>700 Rupees</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <img src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/60/000000/external-award-online-learning-vitaliy-gorbachev-fill-vitaly-gorbachev.png"/>
+                            <div class="counter-caption">
+                                <span>3rd Prize:</span>
+                                <p>500 Rupees</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-certificate-award-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
+                            <div class="counter-caption">
+                                <span>Certificate</span>
+                                <p>For all participants</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <img src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-team-business-and-teamwork-flatart-icons-lineal-color-flatarticons-1.png"/>
+                            <div class="counter-caption">
+                                <span>Team</span>
+                                <p>Upto 3 Members</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
+                            <div class="counter-caption">
+                                <span>1st Round will</span>
+                                <p> Quiz</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png"/>
+                            <div class="counter-caption">
+                                <span>Final Round</span>
+                                <p>Development</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter-item">
+                            <img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-date-logistics-and-delivery-itim2101-flat-itim2101.png"/>
+                            <div class="counter-caption">
+                                <span>Date</span>
+                                <p>18 September</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+            <section class="contact-section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="section-title">
+                                <h2>CONTACT US </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-md-offset-3 col-md-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item active" aria-current="true">Coordinators</li>
+                                                <li class="list-group-item">Shayan</li>
+                                                <li class="list-group-item">Mohit</li>
+                                                <li class="list-group-item">Mukund</li>
+                                                <li class="list-group-item">Atif</li>
+                                                <li class="list-group-item">Prerna</li>
+                                                <button type="button" class="btn btn-success" style="color: white;"><a href="https://chat.whatsapp.com/IElOlIDN6a2BEneigr8O8q" class="card-link">Whatsapp Group</a></button>
+                                                
+                                                </ul>
+                                        </div> 
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <footer class="footer">
+      <div class="footer__addr">
+        <h2>Contact</h2>
+        
+        <address>
+          CEC ECE Department<br>
+          Kharar Banur Highway Sector 112, Landran, <br>Sahibzada Ajit Singh Nagar, Punjab 140307
+              
+          <a class="footer__btn" href="mailto:epc.ece@cgc.edu.in">Email Us</a>
+        </address>
+      </div>
+      
+      <ul class="footer__nav">
+        
+        <li class="nav__item nav__item--extra">
+          <h2 class="nav__title">Technology</h2>
+          
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="#">Hardware Design</a>
+            </li>
+            
+            <li>
+              <a href="#">Software Design</a>
+            </li>
+            
+            <li>
+              <a href="#">Automation</a>
+            </li>
+            
+            <li>
+              <a href="#">Artificial Intelligence</a>
+            </li>
+            
+            <li>
+              <a href="#">IoT</a>
+            </li>
+            <li>
+              <a href="#">Blockchain</a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="nav__item">
+          <h2 class="nav__title">Nav</h2>
+          
+          <ul class="nav__ul">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            
+            <li>
+              <a href="team.html">Team</a>
+            </li>
+            
+            <li>
+              <a href="#">Events</a>
+            </li>
+            
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="legal">
+        <a href="#"><p style="color: black;">&copy; 2021 Electronics Project Club, CGC Landran. All rights reserved.</p></a>
+        
+        <div class="legal__links">
+          <span>Made with <span class="heart">♥</span> by <a href="#"> Developer Team EPC.</a></span>
+        </div>
+      </div>
+    </footer>
+
+        </section>
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/smoth-scroll.js"></script>
+        <script src="js/jquery.downCount.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/custom.js"></script>
+
+        <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+        <script src="js/map.js"></script>
+
+</body>
+
+</html>
