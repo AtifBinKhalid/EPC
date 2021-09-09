@@ -92,10 +92,11 @@ body {
   max-width: 200px;
 }
 .college {
+  margin-top: 20px;
   padding-top: 50px;
   padding-right: 50px;
   float: right;
-  border-radius:70% 70% 70% 40%;
+  /* border-radius:70% 70% 70% 40%; */
   max-width: 170px;
 }
 .letter {
